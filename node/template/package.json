@@ -1,0 +1,16 @@
+{
+  "name": "node-microservices-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jersson",
+  "source": "https://github.com/jersson/microservices-templates",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
