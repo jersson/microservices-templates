@@ -6,23 +6,23 @@ The main goal here is coding a microservices example using Node and JavaScript
 **How to run the code** </br>
 
 Run this command in the console:
-```console
+```
 npm start
 ```
 If everything is okay, you'll see this message:
-```console
+```
 Server started on port 3000
 ````
 
 **How to test the code** </br>
 You can also use the terminal :)
 
-```console
+```
 curl -i --request POST --header "Content-Type: application/json" --data '{"bookId":1, "bookQuantity":1}' http://localhost:3000/checkout/books
 ```
 
 You'll see something like this:
-```console
+```
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
