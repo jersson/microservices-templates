@@ -9,7 +9,7 @@ Run this command in the console:
 ```console
 npm start
 ```
-If everithing is okay, you'll see this message:
+If everything is okay, you'll see this message:
 ```console
 Server started on port 3000
 ````
