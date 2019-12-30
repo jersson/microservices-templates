@@ -1,5 +1,5 @@
 # node-microservices-example
-Using HTTP GET (with parameters)
+Using HTTP POST
 ---
 The main goal here is coding a microservices example using Node and JavaScript
 
@@ -18,12 +18,20 @@ Server started on port 3000
 You can also use the terminal :)
 
 ```console
-curl http://localhost:3000/books/1
+curl -i --request POST --header "Content-Type: application/json" --data '{"bookId":1, "bookQuantity":1}' http://localhost:3000/checkout/books
 ```
 
-You'll see:
+You'll see something like this:
 ```console
-{"id":"1","title":"Code Complete 2nd Edition","author":"Steve McConnell","year":"2004"}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+ETag: W/"1b-fwEIcohrCBBE6BAebQ0l5w5nvnQ"
+Date: Mon, 30 Dec 2019 02:11:29 GMT
+Connection: keep-alive
+
+{"id": "1", "quantity":"1"}
 ```
 
 If you don't like the terminal you can use Postman :D

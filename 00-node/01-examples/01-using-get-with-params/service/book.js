@@ -9,9 +9,9 @@ let book = {
         ];
 
         let bookId = req.params.id;
-        let book = books.find(b => b.id === bookId); 
+        let filteredBook = books.find(b => b.id === bookId); 
 
-        res.send(book);
+        res.send(filteredBook);
     }
 };
 
