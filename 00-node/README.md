@@ -1,5 +1,5 @@
 # node-microservices
-The main goal is coding microservices [template](./00-template) and [examples](./01-examples) using Node and JavaScript
+The main goal here is coding microservices [template](./00-template) and [examples](./01-examples) using Node and JavaScript
 ---
 
 **Examples**

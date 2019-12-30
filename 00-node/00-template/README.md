@@ -5,7 +5,7 @@ The goal here is coding a microservice template using Node and JavaScript
 
 **How to run the code** </br>
 
-Run this commmand in the console:
+Run this command in the console:
 ```console
 npm start
 ```
