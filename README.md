@@ -12,6 +12,6 @@ My idea is coding microservices templates and examples in different programming 
 4. Go
 
 
-I'm open to suggestions so you can contact me here, by twitter ([@jersson](https://twitter/jersson)) or the [contact form on my blog](https://jersson.net/contact/)
+I'm open to suggestions so you can contact me [here](./issues), by twitter ([@jersson](https://twitter/jersson)) or the [contact form on my blog](https://jersson.net/contact/)
 
 Kinds,<br/> JD
