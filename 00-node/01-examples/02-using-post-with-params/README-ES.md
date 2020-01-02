@@ -1,27 +1,27 @@
 # node-microservices-example
-Using HTTP POST
+Usando HTTP POST
 ---
-The main goal here is coding a microservices example using Node and JavaScript
+El objetivo es programar un microservicio que soporte HTTP POST. Se usará Node y JavaScript.
 
-**How to run the code** </br>
+**Cómo ejecutar el código** </br>
 
-Run this command in the console:
+Puedes ejecutar este comando en la consola:
 ```
 npm start
 ```
-If everything is okay, you'll see this message:
+Si todo está bien, verás un mensaje como este:
 ```
 Server started on port 3000
 ```
 
-**How to test the code** </br>
-You can also use the terminal :)
+**Cómo probar el código** </br>
+También puedes usar la terminal para ejecutar el siguiente comando :)
 
 ```
 curl -i --request POST --header "Content-Type: application/json" --data '{"bookId":1, "bookQuantity":1}' http://localhost:3000/checkout/books
 ```
 
-You'll see something like this:
+Verás algo similar a:
 ```
 HTTP/1.1 200 OK
 X-Powered-By: Express
@@ -34,4 +34,4 @@ Connection: keep-alive
 {"id": "1", "quantity":"1"}
 ```
 
-If you don't like the terminal you can use Postman :D
+Si no te gusta la terminal, puedes usar Postman :D
