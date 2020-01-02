@@ -12,7 +12,7 @@ npm start
 If everything is okay, you'll see this message:
 ```
 Server started on port 3000
-````
+```
 
 **How to test the code** </br>
 You can also use the terminal :)
