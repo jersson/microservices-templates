@@ -1,0 +1,15 @@
+{
+  "name": "04-get-and-exception-handling",
+  "version": "0.0.1",
+  "description": "MicroServices node example using HTTP GET (without parameters) and exception handling",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jersson Dongo",
+  "source": "https://github.com/jersson/microservices-templates",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
