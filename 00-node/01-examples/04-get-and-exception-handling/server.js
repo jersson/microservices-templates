@@ -8,15 +8,23 @@ const route = require('./api/route');
 route(app);
 
 app.use( (err, req, res, next) => {
-    
+
+    let statusCode = err.status || 500;
+    let message = err.message;
+
+    if (err.message === 'bad-request') {
+        message = 'Bad request';
+        statusCode = 400;    
+    } 
+
     console.log(`timestamp: ${new Date().toLocaleString()}`);
     console.log(`type: error`);
-    console.log(`message: ${err.message}`);
+    console.log(`message: ${message}`);
     console.log(`stack: ${err.stack}`);
 
-    res.status(err.status || 500);
+    res.status(statusCode);
     res.send({
-        status:`${res.statusCode}`, 
+        status:`${statusCode}`, 
         message: 'internal error', 
         type:'internal'
     }); 
