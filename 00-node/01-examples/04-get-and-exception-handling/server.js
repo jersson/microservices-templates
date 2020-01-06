@@ -4,30 +4,22 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const route = require('./api/route');
+const errorHandler = require('./tools/errorHandler');
 
 route(app);
 
-app.use( (err, req, res, next) => {
+app.use((err, req, res, next) => {
 
-    let statusCode = err.status || 500;
+    let status = err.status || 500;
     let message = err.message;
 
     if (err.message === 'bad-request') {
         message = 'Bad request';
-        statusCode = 400;    
+        status = 400;    
     } 
 
-    console.log(`timestamp: ${new Date().toLocaleString()}`);
-    console.log(`type: error`);
-    console.log(`message: ${message}`);
-    console.log(`stack: ${err.stack}`);
-
-    res.status(statusCode);
-    res.send({
-        status:`${statusCode}`, 
-        message: 'internal error', 
-        type:'internal'
-    }); 
+    errorHandler.sendToConsole(err, status, message);
+    errorHandler.sendHttpResponse(res, status);
 });
 
 app.listen(port, () => {
