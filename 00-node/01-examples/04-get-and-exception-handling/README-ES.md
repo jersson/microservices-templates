@@ -26,7 +26,22 @@ curl http://localhost:3000/books
 Verás lo siguiente:
 
 ```
-[{"title":"Code Complete 2nd Edition","author":"Steve McConnell","year":"2004"},{"title":"Clean Code","author":"Robert C. Martin","year":"2008"},{"title":"The Last Lecture","author":"Randy Pausch","year":"2008"}]
+{"status":"500","message":"internal error","type":"internal"}%
+```
+
+Mientras que en la consola que ejecutaste 'npm start', verás algo como esto:
+```
+timestamp: 1/5/2020, 11:47:13 PM
+status: 500
+type: error
+message: Error here!
+stack: Error: Error here!
+...
+```
+
+También puedes probar esto :)
+```
+curl http://localhost:3000/box
 ```
 
 Si no te gusta la terminal, puedes usar Postman :D

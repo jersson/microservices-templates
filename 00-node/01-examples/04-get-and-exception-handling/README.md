@@ -23,7 +23,22 @@ curl http://localhost:3000/books
 
 You'll see:
 ```
-[{"title":"Code Complete 2nd Edition","author":"Steve McConnell","year":"2004"},{"title":"Clean Code","author":"Robert C. Martin","year":"2008"},{"title":"The Last Lecture","author":"Randy Pausch","year":"2008"}]
+{"status":"500","message":"internal error","type":"internal"}%
+```
+
+Besides, in your original terminal (npm start), you'll see something like:
+```
+timestamp: 1/5/2020, 11:47:13 PM
+status: 500
+type: error
+message: Error here!
+stack: Error: Error here!
+...
+```
+
+You can also try this one :)
+```
+curl http://localhost:3000/box
 ```
 
 If you don't like the terminal you can use Postman :D
