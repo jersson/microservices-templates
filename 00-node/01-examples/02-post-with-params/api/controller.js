@@ -1,5 +1,5 @@
 'use strict'
-const book = require('../service/book');
+const book = require('../core/facade');
 
 let controller = {
     buyBook: (req, res) => {

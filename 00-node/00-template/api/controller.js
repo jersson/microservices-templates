@@ -1,6 +1,6 @@
 'use strict'
 const properties = require('../package.json');
-const information = require('../service/facade');
+const information = require('../core/facade');
 
 let controller = {
     about: (req, res) => {

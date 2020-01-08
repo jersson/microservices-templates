@@ -8,9 +8,7 @@ let book = {
             {title: 'The Last Lecture', author: 'Randy Pausch', year: '2008'} 
         ];
 
-        throw new Error('Error here!');
-
-        res.send(books);
+        return books;
     }
 };
 

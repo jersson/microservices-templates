@@ -1,5 +1,5 @@
 'use strict'
-const book = require('../service/book');
+const book = require('../core/book');
 
 let books = [
     {title: 'Code Complete 2nd Edition', author: 'Steve McConnell', year: '2004'}, 

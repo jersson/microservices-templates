@@ -7,8 +7,8 @@ let book = {
             {title: 'Clean Code', author: 'Robert C. Martin', year: '2008'}, 
             {title: 'The Last Lecture', author: 'Randy Pausch', year: '2008'} 
         ];
-
-        res.send(books);
+        
+        return books;
     }
 };
 
