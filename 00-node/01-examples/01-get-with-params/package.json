@@ -1,5 +1,5 @@
 {
-  "name": "01-using-get-with-params",
+  "name": "01-get-with-params",
   "version": "0.0.1",
   "description": "MicroServices node example using HTTP GET (with parameters)",
   "main": "server.js",

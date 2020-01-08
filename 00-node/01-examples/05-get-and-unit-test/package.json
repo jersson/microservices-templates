@@ -1,15 +1,16 @@
 {
-  "name": "00-using-get",
+  "name": "05-get-and-unit-test",
   "version": "0.0.1",
-  "description": "MicroServices node example using HTTP GET (without parameters)",
+  "description": "MicroServices node example using HTTP GET (without parameters) and unit test",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Jersson Dongo",
   "source": "https://github.com/jersson/microservices-templates",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^24.9.0"
   }
 }

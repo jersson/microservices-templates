@@ -1,7 +1,7 @@
 {
-  "name": "02-using-post-with-params",
+  "name": "00-get",
   "version": "0.0.1",
-  "description": "MicroServices node example using HTTP POST (with parameters)",
+  "description": "MicroServices node example using HTTP GET (without parameters)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
   "source": "https://github.com/jersson/microservices-templates",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
 }
