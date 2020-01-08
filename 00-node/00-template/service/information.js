@@ -1,7 +1,8 @@
+'use strict'
 const properties = require('../package.json');
 
 let information = {
-    getDetails: (req, res) => {
+    getDetails: () => {
         let details = {
             name: properties.name, 
             version: properties.version,
@@ -9,7 +10,8 @@ let information = {
             source: properties.source,
             license: properties.license
         };
-        res.send(details);   
+        
+        return details;
     }
 };
 

@@ -1,6 +1,6 @@
 {
   "name": "node-microservices-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MicroServices node template",
   "main": "server.js",
   "scripts": {
