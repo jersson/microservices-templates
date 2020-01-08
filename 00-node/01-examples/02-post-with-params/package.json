@@ -1,5 +1,5 @@
 {
-  "name": "02-using-post-with-params",
+  "name": "02-post-with-params",
   "version": "0.0.1",
   "description": "MicroServices node example using HTTP POST (with parameters)",
   "main": "server.js",

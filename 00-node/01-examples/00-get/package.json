@@ -1,5 +1,5 @@
 {
-  "name": "00-using-get",
+  "name": "00-get",
   "version": "0.0.1",
   "description": "MicroServices node example using HTTP GET (without parameters)",
   "main": "server.js",
