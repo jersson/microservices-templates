@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const route = require('./api/route');
-const errorHandler = require('./tools/errorHandler');
+const errorHandler = require('./tools/diagnostics/errorHandler');
 
 route(app);
 

@@ -1,6 +1,6 @@
 {
   "name": "04-get-and-exception-handling",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "MicroServices node example using HTTP GET (without parameters) and exception handling",
   "main": "server.js",
   "scripts": {
