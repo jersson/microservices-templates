@@ -1,11 +1,15 @@
 'use strict'
-const book = require('../core/facade');
+const core = require('../core/book');
 
 let controller = {
     buyBook: (req, res) => {
-        book.buyBook(req, res, (purchaseInfo) => {
-            res.json(purchaseInfo);
-        });
+        let bookId = req.body.bookId;
+        let bookQuantity = req.body.bookQuantity;
+
+        let purchaseInfo = core.buyBook(bookId, bookQuantity); 
+        
+        res.setHeader('Content-Type', 'application/json');
+        res.send(purchaseInfo);
     }
 };
 
