@@ -1,11 +1,12 @@
 'use strict'
-const book = require('../core/facade');
+const core = require('../core/book');
 
 let controller = {
     getBook: (req, res) => {
-        book.getBook(req, res, (books) => {
-            res.json(books);
-        });
+        let bookId = req.params.id;
+        let filteredBook = core.getBook(bookId);
+
+        res.send(filteredBook);
     }
 };
 
