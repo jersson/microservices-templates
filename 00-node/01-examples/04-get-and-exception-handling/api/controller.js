@@ -1,12 +1,12 @@
 'use strict'
-const book = require('../core/facade');
+const core = require('../core/book');
 
 let controller = {
     books: (req, res, next) => {
-        book.getAllBooks(req, res, (books) => {
-            if (error) return next(error);
-            res.json(books);
-        });
+        let allBooks = core.getAllBooks();
+        
+        if (error) return next(error);
+        res.send(allBooks);
     }
 };
 

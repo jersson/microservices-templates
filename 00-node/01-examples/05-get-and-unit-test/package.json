@@ -1,6 +1,6 @@
 {
   "name": "05-get-and-unit-test",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "MicroServices node example using HTTP GET (without parameters) and unit test",
   "main": "server.js",
   "scripts": {

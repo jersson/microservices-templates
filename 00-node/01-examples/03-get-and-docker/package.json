@@ -1,6 +1,6 @@
 {
   "name": "03-get-and-docker",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "MicroServices node example using HTTP GET (without parameters) and Docker",
   "main": "server.js",
   "scripts": {

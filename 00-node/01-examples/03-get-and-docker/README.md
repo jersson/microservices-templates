@@ -7,7 +7,7 @@ The main goal here is coding a microservices example using Node and JavaScript
 
 Run this command in the console:
 ```
-docker-compose up
+docker-compose up --build
 ```
 If everything is okay, you'll see this message:
 ```

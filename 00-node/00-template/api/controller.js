@@ -1,12 +1,10 @@
 'use strict'
-const properties = require('../package.json');
-const information = require('../core/facade');
+const core = require('../core/information');
 
 let controller = {
     about: (req, res) => {
-        information.getDetails(req, res, (details) => {
-            res.json(details);
-        });
+        let details = core.getDetails();
+        res.send(details);
     }
 };
 

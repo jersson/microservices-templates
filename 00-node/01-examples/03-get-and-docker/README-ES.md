@@ -7,7 +7,7 @@ El objetivo es programar un microservicio que soporte HTTP GET. Se usará Node y
 
 Puedes ejecutar este comando en la consola:
 ```
-docker-compose up
+docker-compose up --build
 ```
 Si todo está bien, verás un mensaje como este:
 ```
