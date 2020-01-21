@@ -6,7 +6,7 @@ En este proyecto iré poniendo en práctica mi -humilde- conocimiento sobre [mic
 Mi idea es programar -y compartir- plantillas y ejemplos en diferentes lenguajes, esta es mi primera propuesta:
 
 0. Node usando JavaScript [(en progreso)](./00-node)
-1. Node usando TypeScript
+1. Node usando TypeScript [(en progreso)](./01-node-ts)
 2. C# usando dotnetcore
 3. Python
 4. Go
