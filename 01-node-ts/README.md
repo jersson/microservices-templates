@@ -1,10 +1,10 @@
 # node-microservices
-The main goal here is coding microservices [template](./00-template) and examples using Node and TypeScript
+The main goal here is coding microservices [template](./00-template) and [examples](./01-examples) using Node and TypeScript
 ---
 
 **Examples**
 
-0. [List all books using HTTP GET](./00-get)
+0. [List all books using HTTP GET](./01-examples/00-get)
 1. Show book information using HTTP GET
 2. Buy some books using HTTP POST 
 3. List all books (deployed on a Docker container)
