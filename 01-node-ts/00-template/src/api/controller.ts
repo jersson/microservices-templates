@@ -3,7 +3,7 @@ import { Request, Response} from 'express';
 
 let controller = {
     about: (req: Request, res: Response) => {
-        let details = core.information.getDetails();
+        let details = core.getDetails();
         res.send(details);
     }
 };

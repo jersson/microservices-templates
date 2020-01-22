@@ -8,4 +8,4 @@ let route = {
     }    
 };
 
-export default {route};
+export default route;
