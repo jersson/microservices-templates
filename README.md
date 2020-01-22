@@ -5,8 +5,8 @@ Well, in this project I'll put in practice my –short– knowledge about [micro
 
 My idea is coding microservices templates and examples in different programming languages, here's my initial wish list:
 
-0. Node using JavaScript [(work in progress)](./00-node)
-1. Node using TypeScript
+0. Node using JavaScript [(beta)](./00-node)
+1. Node using TypeScript [(work in progress)](./01-node-ts) 
 2. C# using dotnetcore
 3. Python
 4. Go
