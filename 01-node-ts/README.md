@@ -4,7 +4,7 @@ The main goal here is coding microservices [template](./00-template) and example
 
 **Examples**
 
-0. List all books using HTTP GET
+0. [List all books using HTTP GET](./00-get)
 1. Show book information using HTTP GET
 2. Buy some books using HTTP POST 
 3. List all books (deployed on a Docker container)

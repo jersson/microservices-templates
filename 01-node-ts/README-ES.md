@@ -4,7 +4,7 @@ El objetivo es programar [plantillas](./00-template) y ejemplos de microservicio
 
 **Ejemplos**
 
-0. Listar libros usando HTTP GET
+0. [Listar libros usando HTTP GET](./00-get)
 1. Mostrar información de un libro usando HTTP GET
 2. Comprar libros usando HTTP POST 
 3. Listar libros (y desplegarlo usando Docker)
