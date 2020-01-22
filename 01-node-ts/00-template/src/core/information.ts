@@ -12,4 +12,4 @@ let information = {
     }
 };
 
-export default {information};
+export default information;

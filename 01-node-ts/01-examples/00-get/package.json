@@ -1,0 +1,21 @@
+{
+  "name": "00-get",
+  "version": "0.0.4",
+  "description": "MicroServices node example using HTTP GET (without parameters)",
+  "main": "./dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "author": "Jersson Dongo",
+  "source": "https://github.com/jersson/microservices-templates",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "typescript": "^3.7.5"
+  }
+}
