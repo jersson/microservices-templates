@@ -5,7 +5,7 @@ The main goal here is coding microservices [template](./00-template) and [exampl
 **Examples**
 
 0. [List all books using HTTP GET](./01-examples/00-get)
-1. Show book information using HTTP GET
+1. [Show book information using HTTP GET](./01-examples/01-get-with-params)
 2. Buy some books using HTTP POST 
 3. List all books (deployed on a Docker container)
 4. List all books and handling errors
