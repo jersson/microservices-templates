@@ -1,7 +1,7 @@
 # node-microservices-example
 Usando HTTP GET (con parámetros)
 ---
-El objetivo es programar un microservicio que soporte HTTP GET. Se usará Node y JavaScript.
+El objetivo es programar un microservicio que soporte HTTP GET. Se usará Node y TypeScript.
 
 
 **Cómo ejecutar el código** </br>
@@ -20,10 +20,11 @@ Server started on port 3000
 También puedes usar la terminal para ejecutar el siguiente comando :)
 
 ```
-curl http://localhost:3000/books
+curl http://localhost:3000/books/1
 ```
 
 Verás lo siguiente:
+
 ```
 {"id":"1","title":"Code Complete 2nd Edition","author":"Steve McConnell","year":"2004"}
 ```
