@@ -1,0 +1,11 @@
+{
+    "include": ["src/*"],
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "watch": false,
+        "noImplicitAny": true, 
+        "noImplicitReturns": true,
+        "target": "ES3",
+        "outDir": "dist"
+    }
+}
