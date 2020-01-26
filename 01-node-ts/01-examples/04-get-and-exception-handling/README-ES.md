@@ -26,7 +26,7 @@ curl http://localhost:3000/books
 Verás lo siguiente:
 
 ```
-{"status":"500","message":"internal error","type":"internal"}%
+{"status":"500","message":"internal error","type":"internal"}
 ```
 
 Mientras que en la consola que ejecutaste 'npm start', verás algo como esto:

@@ -23,7 +23,7 @@ curl http://localhost:3000/books
 
 You'll see:
 ```
-{"status":"500","message":"internal error","type":"internal"}%
+{"status":"500","message":"internal error","type":"internal"}
 ```
 
 Besides, in your original terminal (npm start), you'll see something like:
