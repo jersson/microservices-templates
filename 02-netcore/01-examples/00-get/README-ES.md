@@ -1,4 +1,4 @@
-# netcore-microservices-template
+# netcore-microservices-example
 Microservicio básico (HTTP GET)
 ---
 El objetivo es programar un microservicio que luego será usado como plantilla de código. Se usará dotnetcore y C#.

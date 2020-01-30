@@ -1,4 +1,4 @@
-# netcore-microservices-template
+# netcore-microservices-example
 Simple microservice (HTTP GET)
 ---
 The goal here is coding a microservice template using dotnetcore and C#
