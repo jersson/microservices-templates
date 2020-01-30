@@ -7,7 +7,7 @@ Mi idea es programar -y compartir- plantillas y ejemplos en diferentes lenguajes
 
 0. Node usando JavaScript [(beta)](./00-node)
 1. Node usando TypeScript [(beta)](./01-node-ts)
-2. C# usando dotnetcore [(en desarrollo)](./02-netcore)
+2. dotnetcore usando C#    [(en desarrollo)](./02-netcore)
 3. Python
 4. Go
 
