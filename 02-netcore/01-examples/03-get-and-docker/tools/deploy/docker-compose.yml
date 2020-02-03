@@ -1,0 +1,8 @@
+version: '3'
+services:
+    books:
+        build:
+            context: ../../src
+            dockerfile: ../tools/deploy/Dockerfile
+        ports:
+            - '5001:80'
