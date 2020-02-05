@@ -5,7 +5,7 @@ El objetivo es programar [plantillas](./00-template) y [ejemplos](./01-examples)
 **Ejemplos**
 
 0. [Listar libros usando HTTP GET](./01-examples/00-get)
-1. Mostrar información de un libro usando HTTP GET
+1. [Mostrar información de un libro usando HTTP GET](./01-examples/01-get-with-params)
 2. Comprar libros usando HTTP POST
 3. Listar libros (y desplegarlo usando Docker)
 4. Listar libros (y manejar errores)
