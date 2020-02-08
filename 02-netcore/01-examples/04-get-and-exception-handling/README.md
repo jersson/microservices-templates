@@ -30,7 +30,8 @@ You'll see:
 Besides, in your original terminal (npm start), you'll see something like:
 ```
 fail: _04_get_and_exception_handling.Api.Controllers.BooksController[0]
-      Status:500, Message:Error here!, StackTrace:   at ...
+      Status:500, Message:Error here!, StackTrace:   at 
+      ...
 ```
 
 If you don't like the terminal you can use Postman :D

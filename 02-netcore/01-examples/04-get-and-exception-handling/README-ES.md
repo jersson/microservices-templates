@@ -32,8 +32,8 @@ Verás lo siguiente:
 Mientras que en la consola que ejecutaste 'npm start', verás algo como esto:
 ```
 fail: _04_get_and_exception_handling.Api.Controllers.BooksController[0]
-      Status:500, Message:Error here!, StackTrace:   at ...
-...
+      Status:500, Message:Error here!, StackTrace:   at 
+      ...
 ```
 
 Si no te gusta la terminal, puedes usar Postman :D
