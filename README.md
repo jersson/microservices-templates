@@ -7,7 +7,7 @@ My idea is build microservices templates and examples in different programming l
 
 0. Node using JavaScript [(beta)](./00-node)
 1. Node using TypeScript [(beta)](./01-node-ts) 
-2. dotnetcore using c#   [(work in progress)](./02-netcore)
+2. dotnetcore using c#   [(beta)](./02-netcore)
 3. Python                [(beta)](./03-python)
 4. Go
 
