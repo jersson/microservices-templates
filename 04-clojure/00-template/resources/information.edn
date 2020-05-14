@@ -1,0 +1,6 @@
+{:name "clojure-microservices-template"
+ :version "0.0.1"
+ :description "Microservices clojure template"
+ :author "berczeck"
+ :source "https://github.com/berczeck/microservices-templates"
+ :license "MIT"}
