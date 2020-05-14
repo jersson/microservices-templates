@@ -1,7 +1,7 @@
 # clojure-microservices-template
 Using HTTP GET (wit parameters)
 ---
-The goal here is coding a microservice template using Clojure
+The goal here is coding a microservice example using Clojure
 
 **How to run the code** </br>
 

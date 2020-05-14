@@ -1,7 +1,7 @@
 # clojure-microservices-template
 Usando HTTP POST
 ---
-El objetivo es programar un microservicio que soporte HTTP GET. Se usará clojure.
+El objetivo es programar un microservicio que soporte HTTP POST. Se usará clojure.
 
 **Cómo ejecutar el código** </br>
 

@@ -22,8 +22,15 @@ curl http://localhost:3000/about
 ```
 
 You'll see:
-```
-{"name":"clojure-microservices-template","version":"0.0.1","author":"berczeck","source":"https://github.com/berczeck/microservices-templates","license":"MIT"}
+```json
+{
+  "name": "clojure-microservices-template",
+  "version": "0.0.1",
+  "author": "berczeck",
+  "source": "https://github.com/berczeck/microservices-templates",
+  "license": "MIT"
+}
+```{"name":"clojure-microservices-template","version":"0.0.1","author":"berczeck","source":"https://github.com/berczeck/microservices-templates","license":"MIT"}
 ```
 
 If you don't like the terminal you can use Postman :D

@@ -1,27 +1,28 @@
 # clojure-microservices-template
-Using HTTP GET (without parameters)
+Usando HTTP GET (sin parámetros)
 ---
-The goal here is coding a microservice example using Clojure
+El objetivo es programar un microservicio que soporte HTTP GET. Se usará clojure.
 
-**How to run the code** </br>
+**Cómo ejecutar el código** </br>
 
-Run this command in the console:
+Puedes ejecutar este comando en la consola:
 ```
 lein ring server-headless
 ```
-If everything is okay, you'll see this message:
+Si todo está bien, verás un mensaje como este:
 ```
 Server started on port 3000
 ```
 
-**How to test the code** </br>
-You can also use the terminal :)
+**Cómo probar el código** </br>
+
+También puedes usar la terminal para ejecutar el siguiente comando :)
 
 ```
 curl http://localhost:3000/books
 ```
 
-You'll see:
+Verás lo siguiente:
 ```json
 [
     {
@@ -42,4 +43,4 @@ You'll see:
 ]
 ```
 
-If you don't like the terminal you can use Postman :D
+Si no te gusta la terminal, puedes usar Postman :D
