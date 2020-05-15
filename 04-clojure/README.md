@@ -1,4 +1,4 @@
-# node-microservices
+# clojure-microservices
 The main goal is build microservices [template](./00-template) and [examples](./01-examples) using Clojure
 ---
 
