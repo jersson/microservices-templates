@@ -1,0 +1,9 @@
+version: '3'
+services:
+    books:
+        build:
+            context: ../../
+            dockerfile: ./tools/deploy/Dockerfile
+        command: java -jar app-standalone.jar
+        ports:
+            - '3000:3000'
